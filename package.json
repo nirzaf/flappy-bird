@@ -7,8 +7,11 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://nirzaf.github.io/flappy-bird",
   "dependencies": {
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
