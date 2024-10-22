@@ -9,9 +9,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-  },
-  "homepage": "https://nirzaf.github.io/flappy-bird",
+    "deploy": "gh-pages -d dist -u git@github.com:nirzaf/flappy-bird.git"
+  },  "homepage": "https://nirzaf.github.io/flappy-bird",
   "dependencies": {
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
