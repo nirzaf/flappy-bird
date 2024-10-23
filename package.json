@@ -11,7 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist -u git@github.com:nirzaf/flappy-bird.git"
   },
-  "homepage": "https://dotnetevangelist.net/flappy-bird/",
+  "homepage": "https://nirzaf.github.io/flappy-bird",
   "dependencies": {
     "glob": "^11.0.0",
     "lucide-react": "^0.344.0",
